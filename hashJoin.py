@@ -45,7 +45,6 @@ def hashJoin(df01, df02):
 
     return pd.DataFrame(joined).T   
 
-
 def testHashJoin():
 	df01 = pd.DataFrame({"usr_id":np.arange(10), "feature_1":np.random.randn(10), \
                      "feature_2":np.random.randn(10),\
